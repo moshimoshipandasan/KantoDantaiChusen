@@ -434,9 +434,9 @@ function onOpen() {
       .addSeparator()
       .addItem('抽選順決定', 'determineLotteryOrder')
       .addItem('団体戦自動抽選', 'autoLotteryForTeamCompetition')
-      .addItem('並べ替え', 'sortSchoolNames')
-      .addItem('抽選5位', 'lotteryForFifthPlace')
-      .addItem('試合順決定', 'determineMatchOrder')
+      // .addItem('並べ替え', 'sortSchoolNames')
+      // .addItem('抽選5位', 'lotteryForFifthPlace')
+      // .addItem('試合順決定', 'determineMatchOrder')
       .addToUi();
 }
 
